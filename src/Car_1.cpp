@@ -94,15 +94,6 @@ int main(int argc, char *argv[]){
  
     while(1)
     {
-    pwm_export(STEER_PIN);
-    pwm_set_period(STEER_PIN, 5000000);
-    pwm_set_duty(STEER_PIN, 1600000);
-    pwm_enable(STEER_PIN);
- 
-    pwm_export(DRIVE_PIN);
-    pwm_set_period(DRIVE_PIN, 5000000);
-    pwm_set_duty(DRIVE_PIN, 1600000);
-    pwm_enable(DRIVE_PIN);
     };
  
 }
